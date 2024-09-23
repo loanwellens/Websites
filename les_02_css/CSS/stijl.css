@@ -1,0 +1,30 @@
+/*
+Oefening 5
+Als uitbreiding op oefeing 4 ga je werken met verschillende lettertypes. 
+Ook ga je de stijlen in een extern bestand bewaren namelijk “stijl.css” in de map “CSS”.
+
+1.	Maak een nieuwe bestand aan “stijl.css” in een map “CSS”.
+2.	Plaats alle stijlen van de header naar dit bestand. Let op: neem de tag “style” niet mee!
+3.	Ga naar Goolge-fonts en kies 3 verschillende lettertypes: schreeflettertype, schreefloos en 
+    een monospace lettertype. Koppel het CSS-bestand van Google met je pagina. 
+4.	Zorg ervoor dat de iedere sectie één van deze lettertypes krijgt.
+
+*/
+
+#section1 {
+    background-color: #e6a2a2;
+    color: #600;
+    font-family: 'IBM Plex Mono Static', monospace;
+}
+
+#section2 {
+    background-color: #a2c4e6;
+    color: #004080;
+    font-family: 'Playfair Display', serif;
+}
+
+#section3 {
+    background-color: #a2e6c4;
+    color: #00663d;
+    font-family: 'Montserrat', sans-serif;
+}

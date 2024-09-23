@@ -1,0 +1,32 @@
+/*
+Oefening 4
+Je gaat een pagina maken met 3 secties in verschillende blokken (onderaan de oefening vind je een screenshot).
+
+1.	Voeg alle CSS toe via een style tag in je header
+2.	Stel het lettertype van de volledige body in op Arial. Indien Arial niet geladen kan worden moet sans-serif 
+    genomen worden
+    •	Doe dit met een element selector
+3.	Maak een CSS klasse ‘section’ om de vormgeving van de verschillende secties in te stellen
+•	De breedte is 300 pixels
+•	De padding en marge zijn beide 20 pixels
+•	De rand is 3 pixels breed, is solid en heeft zwart als kleur
+•	Stel de kleur in met een hexadecimale kleurcode
+•	De radius van de rand is 10 pixels
+4.	Zorg dat de eerste sectie een achtergrondkleur heeft van ‘#e6a2a2’ en een tekstkleur van ‘#600’, 
+    voor de tweede is dat ‘#a2c4e6’ en ‘#004080’, voor de derde is dat ‘#a2e6c4’ en ‘#00663d’.
+•	Gebruik aparte id selectors hiervoor
+5.	De secties bestaan telkens uit een div blok waar je de opmaakstijlen op instelt, en binnen het div blok 
+    een header van het 2de niveau en een paragraaf.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}

@@ -1,0 +1,55 @@
+/*
+Oefening 3
+Je gaat een pagina maken met 4 kleurvakken die je doen denken aan het logo van Microsoft (onderaan de oefening vind je een screenshot).
+
+1.	Voeg alle CSS toe via een style tag in de header
+2.	Zorg ervoor dat zowel de body als html 100% van de hoogte van het scherm in neemt en geen marge heeft
+•	Doe dit met element selector en maak gebruik van grouping
+3.	Voorzie een klasse in CSS met de naam ‘container’ en zorg ervoor dat die:
+•	Een breedte instelt van 500 pixels
+•	De marge automatisch instelt
+•	De bovenste marge op 50 pixels instelt
+4.	Maak een div met klasse ‘container’, hier gaan al je blokjes inkomen
+5.	Voorzie een klasse in CSS met de naam ‘box’ waar je de grootte en positie van de blokjes instelt:
+•	Breedte en hoogte zijn beide 200 pixels
+•	De marge is 10 pixels
+•	Je laat deze links zweven
+6.	Voorzie per kleur een aparte klasse in CSS, in deze klasse stel je enkel de achtergrondkleur in voor de 4 blokken:
+•	red, green, blue, yellow
+7.	Maak voor elke blok een div en zorg ervoor dat deze zowel de box klasse meekrijgen als de klasse met de correcte kleur
+•	TIP: je kan 2 klassen gebruiken door ze te scheiden met een spatie
+*/
+
+html, body {
+    height: 100vh;
+    margin: 0px;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}

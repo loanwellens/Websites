@@ -1,0 +1,34 @@
+/*
+Oefening 2 
+Je past stijlen toe op hyperlinks (<a>) en paragrafen (<p>) wanneer er interactie plaatsvindt, zoals wanneer de muis over een link beweegt of wanneer een link wordt aangeklikt.
+
+Pas onderstaande zaken via CSS aan in de header.
+
+1.	Link-stijlen:
+•	stel de stijl in voor onbezochte links: de tekstkleur rood en geen onderstreping.
+•	stel de stijl in voor bezochte links: de tekstkleur groen.
+•	Stel de stijl in voor links wanneer de muis erover beweegt: de tekstkleur roos.
+•	stel de stijl in voor een link die actief is: de tekstkleur blauw.
+2.	    Paragraaf-stijlen:
+•	p:hover past een gele achtergrondkleur toe op paragrafen wanneer de muis erover beweegt.
+*/
+ a{
+    color: red;
+    text-decoration: none;
+ }
+
+ a:visited {
+    color: green;
+ }
+
+ a:hover {
+    color: pink;
+ }
+
+ a:active {
+    color: blue;
+ }
+
+ p:hover {
+    background-color: yellow;
+ }

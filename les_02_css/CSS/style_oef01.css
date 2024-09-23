@@ -1,0 +1,47 @@
+/*
+Oefening 1
+Je gaat een pagina maken voor vrije software. Pas onderstaande zaken via CSS aan.
+
+1.	Voeg alle CSS toe via een style tag in de header.
+2.	Body: de algemene stijl voor het hele document, zoals het lettertype (Arial, Helvetica, sans-serif), lettergrootte (14px), en achtergrondkleur (#eee).
+3.	Koppen (h1, h2): verschillende stijlen voor de koppen, waaronder achtergrondkleur, tekstkleur en eventuele randen.
+•	Geef h1 als achtergrondkleur “maroon” en witte tekst. Zorg voor een uitlijning in het midden.
+•	Geef h2 een linkse border van 6 pixels in een donkerblauwe kleur. Achtergrond kleur is licht blauw. Geef deze ook een padding links van 10 pixels.
+4.	Paragrafen (p): stijlen zoals tekstkleur (grijs) en een marge onderaan van 25 pixels.
+5.	Gebruik een ID met als naam “extra” om de stijl aan te passen voor de tekst “GNU General Public License (GPL)”. Geef dit een font gewicht van 700 met als tekstkleur zwart. Zorg er ook voor dat de afkorting + verklaring samen als 1 geheel blijft en niet afbreekt (HTML-entiteit!). 
+6.	Maak een klasse “lijntje” om tekst te onderlijnen en een font gewicht te geven van 700. 
+Gebruik dit 3 keer in de tekst om bepaalde delen te benadrukken.
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #eee;
+}
+
+h1 {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    border-left: 6px solid darkblue;
+    background-color: lightblue;
+    padding-left: 10px;
+}
+
+p {
+    color: gray;
+    margin-bottom: 25px;
+}
+
+#extra {
+    font-weight: 700;
+    color: black;
+}
+
+.lijntje {
+    font-weight: 700;
+    text-decoration: underline;
+}
