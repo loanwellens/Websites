@@ -1,0 +1,23 @@
+.divider {
+    width: 100vw;
+    border: 1px solid #00293d;
+}
+
+#entiteit {
+    caption-side: bottom;
+}
+
+#entiteit, td, th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    background-color: #00293d;
+    color: white;
+}

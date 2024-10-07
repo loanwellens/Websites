@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+h1 em {
+    color: #fa6533;
+    font-style: normal;
+    font-weight: bold;
+}
+
+table {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+table caption {
+    caption-side: bottom;
+    padding: 15px;
+}
+
+th, td {
+    border: 1px solid lightgray;
+    height: 50px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+th {
+    font-size: 24px;
+}
+
+#logo {
+    width: 150px;
+}
+
+#handgeschreven {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 32px;
+    background-color: #fa6533;
+    color: white;
+}
+
+.nadruk {
+    font-weight: bold;
+}
