@@ -1,0 +1,62 @@
+/*
+Je bent bezig met het ontwikkelen van een webpagina om de stap naar het hoger onderwijs te maken naar Thomas More. 
+•	Open les03-oef01.html in Visual Studio Code.
+•	Geef de body een font-family en een font-size. De tekstkleur is het donkerblauw van Thomas More.
+•	Plaats bovenaan het logo van Thomas More. Geeft dit een alt-attribuut en een title-attribuut. 
+    Zorg dat de afbeelding 200px breed is. Geef de stijl mee via een klasse.
+•	Hieronder komt een horizontale lijn van 1px met een donkerblauwe border kleur van Thomas More.
+•	Zorg dat de titel H1 geen marge of padding heeft. Font-size is 2em en de kleur is het oranje van Thomas More. 
+•	Ontwerp daaronder 2 paragrafen. Als tekst mag je Lorum Ipsum gebruiken. Deze hebben geen marge en een 
+    padding van 15px.
+•	De link gaat naar de website van Thomas More en in een nieuw venster open. 
+    Als stijl krijgt deze een oranje kleur bij hover. De hyperlinks zijn onderlijnd.
+•	Plaats daaronder een container (div) met een donkerblauwe achtergrondkleur. 
+    Hierin komt het witte logo van Thomas More.  Het logo is 200px breed.
+Pas de HTML- en CSS-code aan volgens deze opdracht en voeg eventueel extra functionaliteit toe om je kennis verder uit te dagen. 
+
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #00293d;
+}
+
+.logo {
+    width: 200px;
+    padding-left: 15px;
+}
+
+.border {
+    border: 1px solid #00293d;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+    color: #FA6533;
+}
+
+p {
+    margin: 0;
+    padding: 15px;
+}
+
+a, a:visited {
+    color: #00293d;
+}
+
+a:hover {
+    color: #FA6533;
+}
+
+div {
+    background-color: #00293d;
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+    padding: 25px;
+}

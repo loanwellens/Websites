@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.logo {
+    width: 400px;
+}
+
+li {
+    margin: 0;
+    padding: 3px;
+}
+
+ol {
+    background-color: #FA6533;
+    color: white;
+}
+
+ul {
+    background-color: #00293d;
+    color: white;
+}
+
+.containter {
+    padding: 20px;
+    width: 400px;
+}

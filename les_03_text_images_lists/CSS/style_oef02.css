@@ -1,0 +1,47 @@
+/*
+Je bent bezig met het ontwikkelen van een webpagina waarop eigenaren en hun honden worden getoond. 
+In de startbestanden vind je een submap ‘img’ met daarin de mappen ‘klein’ en ‘groot’.
+Je mag de afbeeldingen bij het oplossen van de oefening NIET verplaatsen. 
+•	Maak een nieuwe webpagina aan met als naam les03-oef02.html.
+•	Geef de body een font-family.
+•	Zorg dat de titel “Deze baasjes..” in H1 geen marge of padding heeft. 
+    Font-size is 2em en de kleur is het oranje van Thomas More. 
+•	Hieronder komt een horizontale lijn van 1px met een donkerblauwe border kleur van Thomas More.
+•	Voeg een korte beschrijving toe aan elke afbeelding die de eigenaar en de hond identificeert.
+    Gebruik hiervoor het alt-attribuut en het title-attribuut van het img-element.
+•	Voeg hyperlinks toe op de foto’s met een link naar de pagina’s van de verschillende eigenaars. 
+    De links moeten verwijzen naar HTML-pagina's met de namen "eigenaar1.html", "eigenaar2.html", enzovoort.
+•	Geef de afbeelding een afronding (border) van 5%. De marge is overal 15px en
+    de floating is links zodat ze naast elkaar komen te staan. De afbeelding heeft als dekking 0,5.
+•	Voeg een overgangseffect toe wanneer je met de muis over de afbeeldingen gaat. 
+    Gebruik bijvoorbeeld een subtiele schaduw in het oranje van Thomas More en wijzig de dekking naar 1. 
+    Zoek dit eventueel even op hoe je zoiets doet via CSS.
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    color: #FA6533;
+}
+
+.divider {
+    border: 1px solid #00293d;
+}
+
+img {
+    border-radius: 5%;
+    margin: 15px;
+    float: left;
+    opacity: 0.5;
+}
+
+img:hover {
+    transition: ease-in 0.5s;
+    opacity: 1;
+    box-shadow: 0 0 20px 2px #FA6533;
+}

@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #FA6533;
+}
+
+.container {
+    padding: 15px 0;
+}
+a:visited {
+    text-decoration: underline;
+}
+
+a {
+    color: #00293d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FA6533;
+}

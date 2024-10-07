@@ -1,0 +1,49 @@
+/*Je bent een webontwikkelaar die werkt aan de website voor de opleiding "Toegepaste Informatica" van Thomas More. 
+Je hebt al een goede start gemaakt, maar er zijn nog enkele verbeteringen en toevoegingen die je moet 
+aanbrengen om de website aantrekkelijker en informatiever te maken. 
+Hier zijn de vereisten:
+•	Open les03-oef03.html in Visual Studio Code.
+•	Geef de body een font-family en een font-size. De tekstkleur is het donkerblauw van Thomas More.
+•	Zorg dat de titel “Toegepaste Informatica” in H1 geen marge of padding heeft. Font-size is 2em en de kleur 
+    is het oranje van Thomas More. 
+•	Geef de subtitels de opmaak H2. Deze hebben geen marge en enkel een padding bovenaan van 10px. Font-size is 1,5em 
+    en de kleur is donkerblauw van Thomas More. 
+•	Plaats bovenaan het logo van Thomas More. Geeft dit een alt-attribuut en een title-attribuut. 
+    Zorg dat de afbeelding 200px breed is en een marge heeft van 20px. Geef de stijl mee via een klasse.
+•	De hyperlinks onderaan hebben als stijl de donkerblauwe kleur van Thomas More en krijgt een oranje kleur bij hover. 
+    De hyperlinks zijn onderlijnd. 
+o	Maak gebruik van een externe link naar de website van Thomas More en de maillink gaat naar info@thomasmore.be.
+o	Voor de “Naar boven” gebruik je een anker hyperlink.
+o	Zorg ook voor een copyright-vermelding.
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    color: #FA6533;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 1.5em;
+    color: #00293d;
+}
+
+.logo {
+    width: 200px;
+    margin: 20px;
+}
+
+a {
+    color: #00293d;
+}
+
+a:hover {
+    color: #FA6533;
+}
