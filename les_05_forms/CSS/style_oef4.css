@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+form {
+    width: 20%;
+
+    /* background-color: rebeccapurple; */
+}
+
+input {
+    font-size: 18px;
+    padding: 8px 16px;
+    margin: 0 0 16px 0;
+    box-sizing:border-box;
+}
+
+input[type=placeholder] {
+    color: lightgray;
+}
+
+input[type=submit] {
+    color: white;
+}
+
+select {
+    height: 40px;
+    margin: 0 0 16px 0;
+}
+
+input, select {
+    background-color: #FA6533;
+    box-shadow: 5px 5px lightgray;
+    width: 100%;
+}

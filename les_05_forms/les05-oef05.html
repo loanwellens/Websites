@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 05 - Oef 05</title>
+
+    <link rel="stylesheet" href="CSS/style_oef5.css">
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="get">
+        <div>
+            <label for="voornaam">Voornaam:
+                <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="voornaam">Familienaam:
+                <input type="text" id="familienaam" name="familienaam" placeholder="Familienaam" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="adres">Adres:
+                <input type="text" id="adres" name="adres" placeholder="Adres" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="provincie">Provincie:
+                <select name="provincie" id="provincie" required>
+                    <option value="antwerpen" selected>Antwerpen</option>
+                    <option value="limburg">Limburg</option>
+                    <option value="oostvlaanderen">Oost-Vlaanderen</option>
+                    <option value="vlaamsbrabant">Vlaams-Brabant</option>
+                    <option value="westvlaanderen">West-Vlaanderen</option>
+                    <option value="henegouwen">henegouwen</option>
+                    <option value="luik">Luik</option>
+                    <option value="luxemburg">Luxemburg</option>
+                    <option value="namen">Namen</option>
+                    <option value="waalsbrabant">Waals-Brabant</option>
+                </select>
+            </label>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Geslacht</legend>
+                <label for="geslacht">Man
+                    <input type="radio" id="geslacht" name="geslacht" value="man" required>
+                </label>
+
+                <label for="geslacht">Vrouw
+                    <input type="radio" id="geslacht" name="geslacht" value="vrouw" required>
+                </label>
+
+                <label for="geslacht">Anders
+                    <input type="radio" id="geslacht" name="geslacht" value="anders" required>
+                </label>
+            </fieldset>
+        </div>
+
+        <div>
+            <label for="foto">foto
+                <input type="file" required>
+            </label>
+        </div>
+
+        <div>
+            <input type="submit" name="registreren" value="Registreren">
+        </div>
+    </form>
+</body>
+</html>

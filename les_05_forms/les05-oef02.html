@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 05 - Oef 02</title>
+
+    <link rel="stylesheet" href="CSS/style_oef2.css">
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+        <div>
+            <label for="voornaam">Voornaam: </label>
+            <input type="text" name="voornaam" placeholder="Stijn">
+        </div>
+            
+        <div>
+            <label for="familienaam">Familienaam: </label><br>
+            <input type="text" name="familienaam" placeholder="Lenaerts">
+        </div>
+
+        <div>
+            <label for="gebruikersnaam">Gebruikersnaam: </label><br>
+            <input type="email" name="gebruikersnaam" placeholder="mail@thomasmore.be">
+        </div>
+
+        <div>
+            <label for="nickname">Nickname: </label><br>
+            <input type="text" name="nickname" minlength="5" maxlength="15" required>
+        </div>
+            
+        <div>
+            <label for="paswoord">Paswoord: </label><br>
+            <input type="password" name="paswoord" required>
+        </div>
+            
+        <div>
+            <label for="herhaalpaswoord">Herhaal paswoord: </label><br>
+            <input type="password" name="herhaalpaswoord" required>
+        </div>
+
+        <div>
+            <input type="submit" name="registreren" value="Registreren">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+form {
+    width: 25vw;    
+}
+
+fieldset label {
+    padding:16px 0;
+}
+
+fieldset, input[type=submit] {
+    background-color: lightsalmon;
+    margin-bottom: 32px;
+    height: 56px;
+    font-size: 16px;
+    width: 100%;
+
+    box-sizing:border-box;
+}
+
+fieldset {
+    height: 72px;
+}
+
+input[type=radio] {
+    accent-color: maroon;
+}
+
+fieldset legend {
+    text-align: left;
+    font-size: 12px;
+    background-color: maroon;
+    color: white;
+    padding: 8px 16px;
+}
